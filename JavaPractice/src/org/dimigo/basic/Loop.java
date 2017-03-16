@@ -63,7 +63,7 @@ public class Loop {
 			}
 		break;
 			
-		case 4:
+		case 9:
 			System.out.println("이제 공부하세요!");
 		}
 		
