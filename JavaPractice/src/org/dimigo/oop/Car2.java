@@ -22,6 +22,17 @@ private String color;
 private int maxSpeed;
 private int price;
 
+public Car2() {
+}
+
+public Car2(String newCompany, String newModel, String newColor, int newMaxSpeed, int newPrice) {
+	company = newCompany;
+	model = newModel;
+	color = newColor;
+	maxSpeed = newMaxSpeed;
+	price = newPrice;
+}
+
 public String getCompany(){
 	return company;
 }
@@ -56,6 +67,16 @@ public void setPrice(int newPrice){
 	price=newPrice;
 }
 //
+
+public void print() {
+	System.out.println("제조사명 : "+company);
+	System.out.println("모델명 : "+model);
+	System.out.println("색상 : "+color);
+	System.out.println("최대속도 : "+maxSpeed+"km");
+	System.out.println("가격 : "+String.format("%,d", price));
+
+
+}
 
 }
 
