@@ -28,29 +28,9 @@ public class CarTest3 {
 		c2=new Car3("기아자동차", "K7", "흰색", 246);
 		c3=new Car3("삼성자동차", "SM7", "회색");
 		
-//		c1.setCompany("현대자동차");
-//		c1.setModel("제네시스");
-//		c1.setColor("검정색");
-//		c1.setMaxSpeed(225);
-//		c1.setPrice(50000000);
-//		
-//		c2.setCompany("기아자동차");
-//		c2.setModel("K7");
-//		c2.setColor("흰색");
-//		c2.setMaxSpeed(246);
-//		c2.setPrice(40000000);
-//		
-//		c3.setCompany("삼성자동차");
-//		c3.setModel("SM7");
-//		c3.setColor("회색");
-//		c3.setMaxSpeed(200);
-//		c3.setPrice(38000000);
-		
 		System.out.println("<<자동차 목록>>");
 		c1.print();
-		System.out.println();
 		c2.print();
-		System.out.println();
 		c3.print();
 
 	}
