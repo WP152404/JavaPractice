@@ -15,7 +15,7 @@ package org.dimigo.oop;
  * @version : 1.0
  */
 public class IdolGroup {
-	8
+
 
 	/**
 	 * @param args
