@@ -11,7 +11,7 @@ package org.dimigo.oop;
  * 2. 작성일 : 2017. 3. 23.
  * </pre>
  *
- * @author : jjjj
+ * @author : soon3
  * @version : 1.0
  */
 public class Car {
