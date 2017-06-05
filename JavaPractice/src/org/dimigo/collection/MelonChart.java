@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * <pre>
  * org.dimigo.collection
- *   |_ MelonGenreChart
+ *   |_ MelonChart
  * 
  * 1. 개요 : 
  * 2. 작성일 : 2017. 6. 5.
@@ -18,7 +18,7 @@ import java.util.List;
  * @author : soon3
  * @version : 1.0
  */
-public class MelonGenreChart {
+public class MelonChart {
 
 	/**
 	 * @param args
